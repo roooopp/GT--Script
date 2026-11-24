@@ -2,11 +2,11 @@
 
 local Mode = "ROTASI" -- PUTWL = TANPA LOCK | ROTASI = VIA ID DOOR
 -- Ganti sesuai ID yang ingin dipasang di pintu saat Auto Build
-local IdDoor = "NEBULA"
+local IdDoor = "ANTARES"
 
 local UsePlatform = true -- true/false
 
-local WorldStorage = "" -- Tempat buang/ambil barang (Format: NAMA:DOOR)
+local WorldStorage = "ANTADEEF:RAPS" -- Tempat buang/ambil barang (Format: NAMA:DOOR)
 local PanjangNama = 5 -- Panjang huruf world buatan bot
 
 local VialStorage = ""
@@ -22,7 +22,7 @@ local AutoWearPickaxe = true -- true = fitur aktif
 local PickaxeId = 98 -- ID Pickaxe
 local PickaxeStorage = "PKARYA:YTTA"
 
-WebhookURL = "" -- Link webhook Discord
+WebhookURL = "https://discord.com/api/webhooks/1574774983211745440/LT-lje56DqhRR9TQQqwjAbSApFPX8AuZgFsKhC36O-5Vpmwj4rNSHGO1hb3MCVS08eGD" -- Link webhook Discord
 WebhookMessageID = ""
 IntervalWebhook = 10 -- Jeda pembaruan laporan ke Discord (detik)
 
