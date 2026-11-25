@@ -7,7 +7,7 @@ local IdDoor = "ANTARES"
 local UsePlatform = true -- true/false
 
 local WorldStorage = "ANTADEEF:RAPS" -- Tempat buang/ambil barang (Format: NAMA:DOOR)
-local PanjangNama = 5 -- Panjang huruf world buatan bot
+local PanjangNama = 10 -- Panjang huruf world buatan bot
 
 local VialStorage = ""
 local SeedStorage = ""
@@ -20,10 +20,10 @@ local MaxObjekPerTile = 4000
 
 local AutoWearPickaxe = true -- true = fitur aktif
 local PickaxeId = 98 -- ID Pickaxe
-local PickaxeStorage = "PKARYA:YTTA"
+local PickaxeStorage = "ANTADEEF:PICKAXE"
 
 WebhookURL = "https://discord.com/api/webhooks/1574774983211745440/LT-lje56DqhRR9TQQqwjAbSApFPX8AuZgFsKhC36O-5Vpmwj4rNSHGO1hb3MCVS08eGD" -- Link webhook Discord
-WebhookMessageID = ""
+WebhookMessageID = "1574774983211745440"
 IntervalWebhook = 10 -- Jeda pembaruan laporan ke Discord (detik)
 
 local TargetLevel = 5 -- Target level bot sebelum membuat farm
