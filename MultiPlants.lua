@@ -11,24 +11,23 @@
 
 local QuickConfig = {
     -- ═══ 1. WEBHOOK DISCORD (isi minimal 1) ═══
-    MainWebhook   = "",   -- dashboard live per bot
-    NotifWebhook  = "",   -- alert: ban, disconnect, storage kosong
-    ResultWebhook = "",   -- report world selesai
+    MainWebhook   = "https://discord.com/api/webhooks/1575477847777345588/zlAN7otMgjXeXVPIhcOZoZrBh60LTNEaJnv1RetXXZhrebRNRIgdzYOkttGGqyh8lIaM",   -- dashboard live per bot
+    NotifWebhook  = "https://discord.com/api/webhooks/1575477940114948136/CrUPi8zOnafCLmUUNR1P9J7QUQQ3-BgNEaJ1pLWt5PO0yAz3STuHOkbTJAXkmLmgGceZ",   -- alert: ban, disconnect, storage kosong
+    ResultWebhook = "https://discord.com/api/webhooks/1575477998679756923/YyYKB084UWx8-u2q_bKiD3XJeB-I4vSR34z5y1k7Bhp_V8kIGdjOXBgA9zKqgrRUyarT",   -- report world selesai
 
     -- ═══ 2. SEED STORAGE (wajib untuk refill) ═══
     -- Format: "NAMAWORLD|DOORID" atau "NAMAWORLD:DOORID"
     SeedStorages = {
-        -- "SEEDSTORE1|DOOR1",
-        -- "SEEDSTORE2|DOOR2",
+         "CYAFOSSI|RAPS",
     },
 
     -- ═══ 3. WORLD LIST ═══
-    WorldFile    = "plant_worlds.txt",   -- file: NAMA:DOOR per baris
+    WorldFile    = "DIRTFARM-PLANT.txt",   -- file: NAMA:DOOR per baris
     BotsPerWorld = 2,                     -- 2 bot: 1 atas-kiri, 1 bawah-kanan
 
     -- ═══ 4. SEED ═══
-    AutoDetectSeed = true,   -- true = auto deteksi dari tas
-    SeedId         = 0,      -- isi kalau AutoDetectSeed = false
+    AutoDetectSeed = false,   -- true = auto deteksi dari tas
+    SeedId         = 3005,      -- isi kalau AutoDetectSeed = false
 
     -- ═══ 5. FITUR ON/OFF ═══
     AutoCollect     = true,
