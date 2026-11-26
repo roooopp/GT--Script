@@ -1,4 +1,4 @@
--- Script Auto DirtFarm By Nebula Systems (VERSI PERBAIKAN FINAL)
+m-- Script Auto DirtFarm By Nebula Systems (VERSI PERBAIKAN FINAL)
 
 local Mode = "ROTASI" -- PUTWL = TANPA LOCK | ROTASI = VIA ID DOOR
 -- Ganti sesuai ID yang ingin dipasang di pintu saat Auto Build
