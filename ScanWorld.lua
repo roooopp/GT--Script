@@ -9,7 +9,7 @@
 
 local Config = {
     -- 1. SUMBER DATA WORLD
-    InputType = "table", -- "table" ATAU "file"
+    InputType = "file", -- "table" ATAU "file"
     WorldFile = "scan_worlds.txt", 
     WorldList = {          -- Isi daftar world di sini jika pakai "table"
         -- "WORLD1|DOORID", "WORLD2|DOORID"
